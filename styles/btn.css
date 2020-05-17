@@ -1,0 +1,136 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #040d15; */
+}
+
+.btn {
+  position: relative;
+
+  display: inline-block;
+
+  padding: 12px 36px;
+  margin: 10px 0;
+
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  overflow: hidden;
+  background-image: linear-gradient(90deg, #0162c8, #55e7fc);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  transition: all .2s ease-in-out;
+}
+.btn:hover {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+.btn span {
+  position: absolute;
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  border-radius: 50%;
+  animation: effectBtn 0.5s linear infinite;
+}
+
+@keyframes effectBtn {
+  0% {
+    width: 0%;
+    height: 0%;
+    opacity: 0.5;
+  }
+  100% {
+    width: 200px;
+    height: 200px;
+    opacity: 0;
+  }
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #4285f4 !important;
+}
+.btn-default {
+  color: #fff;
+  background-color: #2bbbad !important;
+}
+.btn-secondary {
+  color: #fff;
+  background-color: #a6c !important;
+}
+.btn-success {
+  color: #fff;
+  background-color: #00c851 !important;
+}
+.btn-info {
+  color: #fff;
+  background-color: #33b5e5 !important;
+}
+.btn-warning {
+  color: #fff;
+  background-color: #fb3 !important;
+}
+.btn-dark {
+  color: #fff;
+  background-color: #212121 !important;
+}
+.btn-deep-orange {
+  color: #fff;
+  background-color: #ff7043 !important;
+}
+.btn-elegant {
+  color: #fff;
+  background-color: #2e2e2e !important;
+}
+.btn-unique {
+  color: #fff;
+  background-color: #880e4f !important;
+}
+.btn-pink {
+  color: #fff;
+  background-color: #ec407a !important;
+}
+.btn-purple {
+  color: #fff;
+  background-color: #8e24aa !important;
+}
+.btn-deep-purple {
+  color: #fff;
+  background-color: #512da8 !important;
+}
+.btn-indigo {
+  color: #fff;
+  background-color: #3f51b5 !important;
+}
+.btn-light-blue {
+  color: #fff;
+  background-color: #82b1ff !important;
+}
+.btn-cyan {
+  color: #fff;
+  background-color: #00bcd4 !important;
+}
+.btn-dark-green {
+  color: #fff;
+  background-color: #388e3c !important;
+}
+.btn-light-green {
+  color: #fff;
+  background-color: #8bc34a !important;
+}
+.btn-yellow {
+  color: #fff;
+  background-color: #fbc02d !important;
+}
+.btn-amber {
+  color: #fff;
+  background-color: #ffa000 !important;
+}
+
+.btn-deep-orange {
+  color: #fff;
+  background-color: #ff7043 !important;
+}
